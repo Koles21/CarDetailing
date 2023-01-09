@@ -5,15 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Car Detailing</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <meta name="description" content="Car Detailing" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" type="image/png" href="specification.png" />
 </head>
 
 <body>
-    <div class="container-fluid" style="margin:0 auto">
-        <nav>
+
+    <!-- <nav>
             <ul>
                 <li><a href="index.html ">Početna strana</a></li>
                 <li><a href="Usluge.html ">Usluge</a></li>
@@ -22,17 +23,51 @@
                 <li><a href="about.html ">O nama</a></li>
                 <li><a href="kontakt.html ">Kontakt</a></li>
             </ul>
-        </nav>
+        </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Početna stranica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse test-klasa" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="usluge.html">Usluge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cene.html">Cene</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zakazivanje.html">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center mt-lg-5 main-container">
         <section>
-            <h1>Kontakt</h1>
+            <div class="text-center">
+                <h1>Kontakt</h1>
+            </div>
         </section>
-        <section id="contact ">
+
+        <section id="contact">
             <p>Telefon: +381 65 587 7739</p>
             <p>Email: autodetailingnbgd@gmail.com</p>
             <p>Adresa: Bulevar Mihajla Pupina 127, Blok 30, Beograd</p>
         </section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.1133444971265!2d20.4215679!3d44.819255500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6565d29870e1%3A0x6e59532313c34be2!2sBulevar%20Mihajla%20Pupina%20127%2C%20Beograd%2011070!5e0!3m2!1sen!2srs!4v1673183945655!5m2!1sen!2srs "
-            width="600 " height="450 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.1133444971265!2d20.4215679!3d44.819255500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6565d29870e1%3A0x6e59532313c34be2!2sBulevar%20Mihajla%20Pupina%20127%2C%20Beograd%2011070!5e0!3m2!1sen!2srs!4v1673183945655!5m2!1sen!2srs "
+            width="600 " height="450 " style="border:0; " allowfullscreen=" " loading="lazy "
+            referrerpolicy="no-referrer-when-downgrade "></iframe>
 
         <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY "></script>
     </div>
