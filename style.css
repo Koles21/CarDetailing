@@ -3,7 +3,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: rgb(51, 53, 51);
 }
 
 header {
@@ -16,8 +16,10 @@ header {
 h1 {
   margin: 0;
 }
-
-nav {
+.navbar{
+  background-color: rgb(255, 238, 50);
+}
+/* nav {
   background-color: #ccc;
   text-align: center;
 }
@@ -40,7 +42,7 @@ nav a {
 
 nav a:hover {
   color: #fff;
-}
+} */
 
 main {
   padding: 20px;
@@ -50,7 +52,7 @@ section {
   margin: 20px 0;
 }
 
-table {
+/* table {
   border-collapse: collapse;
   width: 100%;
 }
@@ -65,7 +67,7 @@ td {
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
-}
+} */
 
 button {
   background-color: #333;
@@ -219,4 +221,20 @@ a {
 }
 .test-klasa {
   justify-content: flex-end;
+}
+
+.price-table {
+  color: rgb(51, 53, 51);
+  background-color: rgb(214, 214, 214);
+}
+.container-pricelist {
+  margin-top: 100px;
+}
+.main-header-pricelist {
+  text-align: center;
+  color: rgb(214, 214, 214);
+  margin-bottom: 50px;
+}
+.index-h2-main {
+  color: rgb(214, 214, 214);
 }
