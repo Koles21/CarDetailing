@@ -92,7 +92,7 @@ button:hover {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -281,4 +281,12 @@ a {
 
 .index-h2-main {
     color: rgb(214, 214, 214);
+}
+
+/* USLUGE KLASE*/
+.main-column-usluge{
+    border: 1px solid black;
+}
+ul{
+    list-style: none;
 }
